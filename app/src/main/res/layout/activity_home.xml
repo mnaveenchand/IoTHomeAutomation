@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.iothomeautomation.iothomeautomation.HomeActivity">
+
+    <!--   Dashboard screen with Home Automation Applications -->
+    <!--  Button to view all Temperature and Humidity screen -->
+
+
+    <Button
+        android:id="@+id/btnTempHumid"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Temparature and Humidity" />
+
+
+    <!-- Button for a RFID -->
+
+    <Button
+        android:id="@+id/btnRFID"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="RFID Management" />
+
+    <!-- Button for a KEY PAD -->
+    <Button
+        android:id="@+id/btnKEY"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="175dp"
+        android:gravity="center"
+        android:text="KEY PAD" />
+
+    <!-- Button for a KEY PAD -->
+
+    <Button
+        android:id="@+id/btnApp"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="Appliance Control" />
+
+
+
+</RelativeLayout>
